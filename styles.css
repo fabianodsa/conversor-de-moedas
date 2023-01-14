@@ -8,27 +8,18 @@
     font-size: 1.25rem;
 }
 
-/* body {
+body {
     width: 100vw;
     height: 100vh;
     color: #fff;
-} */
+    background: #222;
+}
 
-body {
+/* body {
     background: linear-gradient(to right, #1e5799 0%,#2ce0bf 19%,#76dd2c 40%,#dba62b 60%,#e02cbf 83%,#1e5799 100%); 
-    /* background-size: $bodyWidth 100%; */
+    background-size: $bodyWidth 100%;
     animation: body 15s linear infinite;
-  }
-  
-  @keyframes body{
-    0%{
-      background-position-x: 0;
-    }
-    
-    100%{
-      background-position-x: $bodyWidth;
-    }
-  }
+  } */
 
 main {
     width: 100%;
@@ -121,14 +112,14 @@ label:first-child {
 #btnLimpar {
     cursor: pointer;
     margin-left: 0.625rem;
-    background: #836FFF;
+    background: linear-gradient(to right, #1e5799 0%,#2ce0bf 19%,#76dd2c 40%,#dba62b 60%,#e02cbf 83%,#1e5799 100%);
     width: 150px;
     border-radius: 15px;
 }
 
 #btnConverter {
     cursor: not-allowed;
-    background: #836FFF;
+    background: linear-gradient(to right, #1e5799 0%,#2ce0bf 19%,#76dd2c 40%,#dba62b 60%,#e02cbf 83%,#1e5799 100%);
     width: 150px;
     border-radius: 15px;
 }
